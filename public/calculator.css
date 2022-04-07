@@ -1,0 +1,185 @@
+body{
+    display: flex;
+    justify-content: center;
+    max-height: 100vh;
+    min-height: 80vh;
+    max-width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #f2f2f1;
+    font-family: 'Fredoka One', cursive;
+}
+.calculator{
+    width: 259px;
+    height: 359.30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    align-self: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.calculatorDisplay{
+    display: flex;
+    width: 230px;
+    height: 119.90px;
+    background-color: #81B7FF;
+    margin: 15px 0px 15px 0px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.calculatorDisplay1{
+    height: 50%;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+.calculatorDisplay1Left{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.calculatorMake{
+    font-size: 20px;
+}
+.calculatorModel{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.calculatorDisplay1Right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+}
+.calculatorSolarPanel{
+    width: 100px;
+    height: 35px;
+    background-color: #32203C;
+    border-radius: 5px;
+}
+.calculatorSolarPanelText{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 7px;
+    padding: 2px;
+
+}
+.calculatorDisplay2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.display{
+    background-color: #DAEDFC;
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
+    border: 6px solid #708CDB;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 22px;
+}
+.displayText{
+    padding: 5px;
+}
+.calculatorButtons {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "negativeButton sevenButton eightButton nineButton multiplyButton"
+      "clearButton fourButton fiveButton sixButton minusButton"
+      "allClearButton oneButton twoButton threeButton divideButton"
+      "allClearButton zeroButton decimalButton equalButton addButton";
+    width: 230px;
+    height: 190px;
+    background-color: #DAEDFC;
+    border-radius: 5px;
+  }
+.shortButton{
+    width: 35px;
+    height: 29.08px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.shortButton:hover, .longButton:hover,
+.shortButton:focus, .longButton:focus {
+  background-color: #32203C;
+  color: white;
+}
+.longButton{
+    width: 35px;
+    height: 77.25px;
+    border-radius: 2px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.blue{
+    background-color: #81B7FF; 
+}
+.white{
+    background-color: white;
+    color: #81B7FF;
+}
+.multiplyButton { 
+      grid-area: multiplyButton; 
+    
+}
+.minusButton { grid-area: minusButton; }
+
+.addButton { grid-area: addButton; }
+
+.divideButton { grid-area: divideButton; }
+
+
+.nineButton { grid-area: nineButton; }
+
+.sixButton { grid-area: sixButton; }
+
+.threeButton { grid-area: threeButton; }
+
+.equalButton { grid-area: equalButton; }
+
+.eightButton { grid-area: eightButton; }
+
+.fiveButton { grid-area: fiveButton; }
+
+.twoButton { grid-area: twoButton; }
+
+.decimalButton { grid-area: decimalButton; }
+
+.zeroButton { grid-area: zeroButton; }
+
+.oneButton { grid-area: oneButton; }
+
+.fourButton { grid-area: fourButton; }
+
+.sevenButton { grid-area: sevenButton; }
+
+.negativeButton { grid-area: negativeButton; }
+
+.clearButton { grid-area: clearButton; }
+
+.allClearButton { grid-area: allClearButton; }
+  

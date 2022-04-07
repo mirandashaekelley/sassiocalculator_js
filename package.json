@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "puppeteer": "^13.5.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "type": "module"
+}
